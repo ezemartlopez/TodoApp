@@ -1,0 +1,50 @@
+.todo-add-form-container{
+    width: 100%;
+    height: 4.5rem;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #25273c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.button-container{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(119, 122, 146);
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.icon-button{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    color: rgb(119, 122, 146);
+}
+.button-container:hover{
+    background-color: rgb(119, 122, 146);
+}
+.button-container:hover > .icon-button{
+    color: white;
+}
+.input-todo{
+    width: 100%;
+    border: none; /* Elimina el borde predeterminado */
+    outline: none; /* Elimina el contorno predeterminado al obtener el foco */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    font-size: 16px; /* Establece el tamaño de texto a 16px, ajusta según sea necesario */
+    color: white;
+    background-color: #25273c;
+    font-family: "Josefin Sans", sans-serif;
+}
+.input-todo::placeholder{
+    color: rgb(119, 122, 146);
+}

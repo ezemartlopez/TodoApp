@@ -1,0 +1,13 @@
+.tittle-app-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle-app{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
