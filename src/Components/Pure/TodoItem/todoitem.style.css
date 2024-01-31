@@ -19,11 +19,10 @@
     cursor: pointer;
 }
 .checkbox-item:checked {
-    background: url("./src/assets/images/icon-check.svg"),
-    linear-gradient(45deg, var(--clr-green), var(--clr-pink));
+  background: url("./src/assets/images/icon-check.svg"),linear-gradient(45deg, var(--clr-green), var(--clr-pink));
   background-repeat: no-repeat;
   background-position: center;
-  }
+}
 
 .text-item{
     height: 1.6rem;
@@ -42,7 +41,9 @@
     text-decoration: line-through;
     color: rgb(119, 122, 146);
 }
-
+.text-incompleted{
+    color: white;
+}
 .close-button{
     color: rgb(119, 122, 146);
     width: 1.6rem;
