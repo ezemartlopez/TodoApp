@@ -1,6 +1,9 @@
-.image-background{
+.background-container-image{
     width: 100%;
     height: 330px;
     display: block;
-    object-fit: cover;
+    background-image: var(--background-image);
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
