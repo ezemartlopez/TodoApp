@@ -4,7 +4,6 @@ import TodoApp from '../TodoApp/TodoApp';
 import './bodyapp.style.css';
 import { connectDeviceMode } from '../../../StoreRedux/conectors/conectFunction';
 
-
 function BodyApp({mode, setWindowWidth}) {
 
   const deviceByWith = () => {
@@ -20,7 +19,7 @@ function BodyApp({mode, setWindowWidth}) {
     };
   }, []);
   return (
-      <div className={'body-container ' + ('mode-'+mode)} >
+      <div className='body-container' >
           <div className='body-background-container'>
               <Background></Background>
           </div>
